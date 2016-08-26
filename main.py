@@ -39,7 +39,7 @@ for topic in topics:
 
 html_body += "</ul>"
 
-header = "<h1>Hi!</h1>"
+header = "Hi!"
 
 RECIPIENT = 'benadriansarmiento@gmail.com'
 with open('mailgun-creds.json') as data_file:
